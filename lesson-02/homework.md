@@ -37,7 +37,7 @@ def boo(arg1):
     pass
 
 for _ in range(100):
-    foo("Walter")
+    foo("Walter")  # print some average value 100 times - in each call
 ```
 
 ### Использовать mock-объект при тестировании
