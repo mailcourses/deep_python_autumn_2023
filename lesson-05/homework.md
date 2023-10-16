@@ -27,9 +27,9 @@
 
     cache.set("k3", "val3")
 
-    assert cache.get("k3")) == "val3"
-    assert cache.get("k2")) is None
-    assert cache.get("k1")) == "val1"
+    assert cache.get("k3") == "val3"
+    assert cache.get("k2") is None
+    assert cache.get("k1") == "val1"
 
 
     Если удобнее, get/set можно сделать по аналогии с dict:
